@@ -10,6 +10,7 @@ In this project, we are simulating a real-world data engineering pipeline that h
 
 ## Architecture
 
+![Architecture](https://github.com/user-attachments/assets/b706e496-b0b5-4c5d-8445-e6412a2410fb)
 
 
 ## Technology Stack
