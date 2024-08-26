@@ -15,14 +15,30 @@ In this project, we are simulating a real-world data engineering pipeline that h
 
 ## Technology Stack
 
-Programming Language: Python
-Amazon Web Services (AWS):
-S3 (Simple Storage Service): For storing the processed data.
-Athena: For querying the data stored in S3.
-Glue Crawler: For cataloging the data in S3.
-Glue Catalog: To maintain the metadata of the data stored in S3.
-EC2: For hosting the Kafka broker and other necessary components.
-Apache Kafka: For real-time data streaming and ingestion.
+- Programming Language: Python
+Amazon Web Services (AWS): 
+- S3 (Simple Storage Service): For storing the processed data.
+- Athena: For querying the data stored in S3.
+- Glue Crawler: For cataloging the data in S3.
+- Glue Catalog: To maintain the metadata of the data stored in S3.
+- EC2: For hosting the Kafka broker and other necessary components.
+- Apache Kafka: For real-time data streaming and ingestion.
+
+## Steps
+
+Process
+
+Set up a Kafka server on an EC2 instance:
+
+- Launch a free t2.micro AWS instance and connect to it using SSH.
+- Download Kafka and Java on the instance.
+- Access the EC2 instance from outside the network using the public IPv4 address listed in the AWS instance details.
+- Start the Zookeeper and Kafka servers, each in a separate terminal.
+- Add inbound security rules to allow connections.
+- Create a topic and run the producer in another terminal.
+- Start the consumer in a separate terminal.
+
+I used a .csv  sample file with stock market data to simulate the incoming data on Kfaka.
 
 ## Objective
 
