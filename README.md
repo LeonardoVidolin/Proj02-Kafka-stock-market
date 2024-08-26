@@ -38,7 +38,7 @@ Set up a Kafka server on an EC2 instance:
 - Create a topic and run the producer in another terminal.
 - Start the consumer in a separate terminal.
 
-I used a .csv  sample file with stock market data to simulate the incoming data on Kfaka.
+I used a .csv  sample file with stock market data to simulate the incoming data on Kafka. The Producer will read this .csv and generate the data that the consumer will receive and save the processed data on Amazon S3
 
 ## Objective
 
