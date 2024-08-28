@@ -46,4 +46,4 @@ The main objective of this project is to train with and showcase your skills in 
 
 ## Dataset Used
 
-Here is the dataset used - https://github.com/darshilparmar/stock-market-kafka-data-engineering-project/blob/main/indexProcessed.csv
+Here is the dataset used - [indexProcessed.csv](https://github.com/LeonardoVidolin/Proj02-Kafka-stock-market/blob/main/indexProcessed.csv)
